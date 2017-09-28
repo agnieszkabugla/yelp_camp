@@ -30,7 +30,7 @@ app.locals.moment = require("moment");
 console.log(moment());
 // seedDB();    //seed the database 
 
-//PASSPORT CONFIG
+//PASSPORT  CONFIG
 app.use(require("express-session")({
     secret: "Once again Rusty wins cutest dog",
     resave: false, 
